@@ -10,8 +10,10 @@ https://bitcoincore.org/
 
 
 ###atomicals-electrumx ```.env``` 配置文件说明
-######DAEMON_URL: BTC节点地址
-######DB_DIRECTORY: atomicals节点数据存储路径
+
+DAEMON_URL: BTC节点地址
+DB_DIRECTORY: atomicals节点数据存储路径
+
 其余默认即可。 详见官方文档。
 
 ```.env```中配置完bitcoin节点地址后，运行 ```run.sh``` 即可
